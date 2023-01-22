@@ -1,0 +1,47 @@
+{
+  "name": "emag",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@heroicons/react": "^1.0.6",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.3",
+    "@next/font": "13.1.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@stripe/react-stripe-js": "^1.11.0",
+    "@stripe/stripe-js": "^1.46.0",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "axios": "^1.2.2",
+    "child_process": "^1.0.2",
+    "firebase": "^8.10.1",
+    "firebase-admin": "^11.4.0",
+    "force": "^0.0.3",
+    "micro": "^10.0.1",
+    "moment": "^2.29.4",
+    "next": "^13.1.1-canary.1",
+    "next-auth": "^4.18.7",
+    "next-images": "^1.8.4",
+    "react": "18.2.0",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^11.4.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.24",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "tailwindcss": "^3.2.4"
+  }
+}

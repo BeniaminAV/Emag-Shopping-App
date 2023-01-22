@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* NAVBAR - BOTTOM BAR */
+    .link {
+        @apply cursor-pointer flex items-center md:text-sm mx-2
+    }
+
+    .links{
+        @apply cursor-pointer  text-black hidden lg:inline-flex mx-1
+    }
+
+    .link-1{
+        @apply cursor-pointer p-1 mb-1 hover:border rounded-full 
+    }
+
+    .link-2{
+        @apply hidden cursor-pointer p-1 mb-1 hover:border rounded-full  md:flex 
+    }
+
+    .banner-link{
+        @apply text-base cursor-pointer flex items-center justify-start  xxl:p-2.5 xxl:mt-1  xl:p-1.5 xl:mt-0.5  lg:p-0.5 md:text-sm 
+    }
+
+    .banner-link-text{
+        @apply hover:text-emag-blue
+    }
+
+    .banner-menu{
+        @apply text-base cursor-pointer flex items-center justify-start
+    }
+
+    .banner-menu-text{
+        @apply hover:text-emag-blue
+    }
+
+    /* ProductFeed */
+
+    /* News */
+    .news{
+        @apply rounded-xl cursor-pointer w-[100%] h-[100%] object-contain
+    }
+
+    .title{
+        @apply col-span-full mx-2 mt-4 text-2xl py-2
+    }
+
+    .market-link{
+        @apply p-0.5 hidden text-lg lg:flex
+    }
+
+    .input-email{
+        @apply w-full rounded-2xl h-[36px] p-4 mt-2 outline-none lg:mr-2
+    }
+
+    /* Footer */
+    .footer-title{
+        @apply text-xl py-3 text-[#3959C3] cursor-pointer
+    }
+
+    .footer-links{
+        @apply text-[#005EB8] py-2 text-xs hover:underline cursor-pointer
+    }
+
+    .copy-links{
+        @apply flex items-center justify-center py-2
+    }
+}
