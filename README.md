@@ -5,7 +5,7 @@ ReactJs, NEXT.JS, Webhooks, Stripe Checkout, Firestore, NextAuth, Full Responsiv
 
 
 My application, created with NextJs, is an online store that offers users the ability to connect through their Google account using NextAuth. Users can add products to their favorites or shopping cart, make payments with Stripe, and view their order history saved in Firebase. The design is crafted with TailwindCSS, providing a seamless and intuitive shopping experience.
-
+ 
 Live Project : https://emag-shopping-dx5gomuxn-beniaminav.vercel.app/
 
 * If you press the demo button and it doesn't work right away, pleaserefresh because it's not the best host. Thank you kindly for your understanding.
